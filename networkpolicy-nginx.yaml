@@ -6,7 +6,7 @@ metadata:
 spec:
   podSelector:
     matchLabels:
-      app: william-nginxdeployment
+      app: nginx
   policyTypes:
   - Egress
   egress:
