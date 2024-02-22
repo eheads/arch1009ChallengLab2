@@ -13,7 +13,7 @@ spec:
   - from:
     - podSelector:
         matchLabels:
-          app: william-nginxdeployment
+          app: nginx
     ports:
     - protocol: TCP
       port: 80
